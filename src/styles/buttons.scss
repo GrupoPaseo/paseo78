@@ -1,0 +1,39 @@
+@import "vars.scss";
+
+.button {
+  background-color: #d3d3d3;
+  border: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  padding: 1rem;
+  text-decoration: none;
+  user-select: none;
+  transition: 0.2s;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  appearance: none;
+  outline: 0;
+  box-shadow: 0 2px 2px 0 darken(#d3d3d3, 10%);
+
+  @media screen and (max-width: 376px) {
+    font-size: 0.7rem;
+  }
+}
+
+.button--red {
+  //background: linear-gradient(to left, #95ca3e 0%, #95ca3e 50%, #85c638 100%);
+  background-color: #ff6768;
+  color: white;
+  box-shadow: 0 2px 2px 0 darken(#ff6768, 10%);
+}
+
+.button--uppercase {
+  text-transform: uppercase;
+  font-weight: 300;
+}
