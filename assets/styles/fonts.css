@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "paseo78";
+  src: url("../fonts/paseo78.eot?fte2ks");
+  src: url("../fonts/paseo78.eot?fte2ks#iefix") format("embedded-opentype"),
+    url("../fonts/paseo78.ttf?fte2ks") format("truetype"),
+    url("../fonts/paseo78.woff?fte2ks") format("woff"),
+    url("../fonts/paseo78.svg?fte2ks#paseo78") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "paseo78" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
