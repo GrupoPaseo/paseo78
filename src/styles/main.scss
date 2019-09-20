@@ -1,4 +1,5 @@
 @import "reset.scss";
+@import "vars.scss";
 /*
 ********************************
 ********* BASIC STYLES *********
@@ -8,7 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
 h1,
@@ -21,13 +22,21 @@ h6 {
 }
 a {
   text-decoration: none;
-  color: orange;
+  color: $a-color;
+}
+img {
+  width: 100%;
 }
 /*
 ********************************
 ************ CUSTOM ************
 ********************************
 */
-@import "vars.scss";
 @import "utils.scss";
 @import "buttons.scss";
+@import "slider.scss";
+
+@import "sections/header.scss";
+@import "sections/areas.scss";
+@import "sections/products.scss";
+@import "sections/footer.scss";
