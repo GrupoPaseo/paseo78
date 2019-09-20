@@ -478,7 +478,11 @@ img {
     text-transform: uppercase;
     color: #a18500;
     font-family: "Roboto", sans-serif;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    font-size: 1.5rem; }
+    @media screen and (min-width: 900px) {
+      .areas__title {
+        font-size: 2.3rem; } }
   .areas__image {
     height: 200px;
     width: 100%;
@@ -538,6 +542,9 @@ img {
     font-size: 1.3rem;
     font-family: "Roboto", sans-serif;
     letter-spacing: 2px; }
+    @media screen and (min-width: 900px) {
+      .products__title {
+        font-size: 2.3rem; } }
   .products__items {
     display: flex;
     flex-direction: column;
